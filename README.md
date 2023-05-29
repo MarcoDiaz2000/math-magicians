@@ -127,7 +127,7 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-> Hello, feel free to support this project
+> Hello, feel free to support this project.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
