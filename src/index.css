@@ -1,7 +1,8 @@
 /* prettier-ignore */
 body {
   margin: 0;
-  font-family: -apple-system,
+  font-family:
+    -apple-system,
     BlinkMacSystemFont,
     'Segoe UI',
     'Roboto',
@@ -18,7 +19,8 @@ body {
 
 /* prettier-ignore */
 code {
-  font-family: source-code-pro,
+  font-family:
+    source-code-pro,
     Menlo,
     Monaco,
     Consolas,
