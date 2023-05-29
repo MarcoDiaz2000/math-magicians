@@ -56,35 +56,88 @@ React
 
 <!-- LIVE DEMO -->
 
-
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
+
+
+
+To get a local copy up and running, follow these steps.
 
 ### Prerequisites
 
 In order to run this project you need:
 
-<a href="https://nodejs.org/en">- Node.js</a>
-<a href="https://git-scm.com/downloads">- Git</a>
+
+Example command:
+
+```sh
+1.use a browser
+2.use cable internet
+```
+ 
 
 ### Setup
 
-Install Node Js on your local computer.
+Clone this repository to your desired folder:
+
+
+Example commands:
+
+```sh
+  cd todo-list
+  git clone https://github.com/MarcoDiaz2000/math-magicians
+
+```
+
 
 ### Install
 
 Install this project with:
 
-<pre> git clone https://github.com/MarcoDiaz2000/math-magicians.git</pre>
+
+Example command:
+
+```sh
+  npm install
+```
+
 
 ### Usage
 
-To run the project, open the index file by double clicking
+To run the project, execute the following command:
+
+
+Example command:
+
+```sh
+ npm run start
+```
+
 
 ### Run tests
 
-To run tests, run a live server on your computer..
+To run tests, run the following command:
+
+
+Example command:
+
+```sh
+npx hint .
+npx eslint .
+```
+
+
+### Deployment
+
+You can deploy this project using:
+
+- Render.com
+- Netlify.com
+
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 <!-- AUTHORS -->
