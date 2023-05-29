@@ -14,6 +14,7 @@
   - [Usage](#usage)
   - [Run tests](#run-tests)
 - [👥 Authors](#authors)
+- [🔭 Future Features]
 - [🤝 Contributing](#contributing)
 - [⭐️ Show your support](#support)
 - [🙏 Acknowledgements](#acknowledgements)
@@ -98,6 +99,13 @@ To run tests, run a live server on your computer..
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+ ## 🔭 Future Features
+
+- Add the functionality for the app.🚀
+- Add the testing using react testing library💯
+- Add the final touches for the styling👌
 
 
 <!-- CONTRIBUTING -->
