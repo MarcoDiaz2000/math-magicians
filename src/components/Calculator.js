@@ -1,15 +1,13 @@
-import React from "react";
-import Screen from "./Screen";
-import CalculatorButtons from "./CalculatorButtons";
-import './Calculator.css'
+import React from 'react';
+import Screen from './Screen';
+import CalculatorButtons from './CalculatorButtons';
+import './Calculator.css';
 
-const Calculator = () => {
-    return (
-        <div className="calculator">
-            <Screen value='0' />
-            <CalculatorButtons />
-        </div>
-    );
-}
+const Calculator = () => (
+  <div className="calculator">
+    <Screen value="0" />
+    <CalculatorButtons />
+  </div>
+);
 
 export default Calculator;
