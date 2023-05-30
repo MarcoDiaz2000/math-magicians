@@ -1,0 +1,18 @@
+.button {
+  width: 25%;
+  padding: 20px;
+  font-size: 2em;
+  border: 1px solid #000;
+}
+
+.zero {
+  width: 50%;
+}
+
+.divide,
+.multiply,
+.subtract,
+.add,
+.equal {
+  background: rgb(189, 108, 14);
+}
