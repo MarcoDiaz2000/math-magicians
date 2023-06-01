@@ -1,0 +1,8 @@
+.quote {
+  padding: 15px;
+  font-size: 1em;
+  border: 1px solid;
+  max-width: 600px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
