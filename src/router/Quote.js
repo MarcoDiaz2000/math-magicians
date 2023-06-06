@@ -1,9 +1,10 @@
 import React from 'react';
-import Calculator from '../components/Calculator';
+import Quotes from '../components/Quotes';
+import './Quote.css';
 
 const Quote = () => (
-  <div>
-    <Calculator />
+  <div className="quote-container">
+    <Quotes />
   </div>
 );
 

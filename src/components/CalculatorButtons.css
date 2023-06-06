@@ -16,3 +16,7 @@
 .equal {
   background: rgb(189, 108, 14);
 }
+
+.button:active {
+  transform: scale(0.9);
+}
