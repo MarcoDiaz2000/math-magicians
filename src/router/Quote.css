@@ -1,0 +1,15 @@
+.quote-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90vw;
+  height: calc(100vh - 60px);
+  font-size: 1.5em;
+  padding: 0 30px;
+}
+
+.quote-container .quote {
+  width: 85%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0.2, 0.4);
+}

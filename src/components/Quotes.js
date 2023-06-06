@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import './Quote.css';
+import './Quotes.css';
 
-function Quote() {
+function Quotes() {
   const [data, setData] = useState(null);
   const [error, setError] = useState(null);
   const [loading, setLoading] = useState(true);
@@ -47,4 +47,4 @@ function Quote() {
   );
 }
 
-export default Quote;
+export default Quotes;

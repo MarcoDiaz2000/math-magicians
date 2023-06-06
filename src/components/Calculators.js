@@ -1,11 +1,10 @@
 import React, { useState } from 'react';
 import Screen from './Screen';
 import CalculatorButtons from './CalculatorButtons';
-import './Calculator.css';
+import './Calculators.css';
 import calculate from '../logic/calculate';
-import Quote from './Quote';
 
-const Calculator = () => {
+const Calculators = () => {
   const [state, setState] = useState({
     total: null,
     next: null,
@@ -16,12 +15,11 @@ const Calculator = () => {
     setState(calculate(state, buttonName));
   };
   return (
-    <div className="calculator">
-      <Quote />
+    <div className="calculators">
       <Screen value={state.next || state.total || '0'} />
       <CalculatorButtons clickHandler={handleClick} />
     </div>
   );
 };
 
-export default Calculator;
+export default Calculators;
