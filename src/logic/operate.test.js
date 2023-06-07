@@ -1,4 +1,4 @@
-import operate from './operate';
+import operate from "./operate";
 
 describe('operate functions', () => {
   it('adds', () => {
@@ -7,7 +7,7 @@ describe('operate functions', () => {
 
   it('adds', () => {
     expect(operate(5, 5, '+')).toBe('10');
-  });
+  })
 
   it('substracts', () => {
     expect(operate(2, 1, '-')).toBe('1');
@@ -50,6 +50,6 @@ describe('operate functions', () => {
   });
 
   it('throws error for unknown operation', () => {
-    expect(() => operate(2, 1, '?')).toThrow('Unknown operation \'?\'');
+    expect(() => operate(2, 1, '?')).toThrow(`Unknown operation '?'`);
   });
 });
