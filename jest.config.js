@@ -1,8 +1,8 @@
 module.exports = {
   transform: {
-    '^.+\\.jsx?$': 'babel-jest'
+    '^.+\\.jsx?$': 'babel-jest',
   },
   transformIgnorePatterns: [
-    'node_modules/(?!(node-fetch)/)'
-  ]
+    'node_modules/(?!(node-fetch)/)',
+  ],
 };

@@ -1,7 +1,6 @@
-import calculate from "./calculate";
+import calculate from './calculate';
 
 describe('calculate functions', () => {
-
   it('Clears all fields when the "AC" button is pressed', () => {
     const obj = {
       total: 2,
@@ -51,7 +50,6 @@ describe('calculate functions', () => {
     });
   });
 
-
   it('appends the number to next when an operation is already set', () => {
     const obj = {
       total: null,
@@ -89,7 +87,7 @@ describe('calculate functions', () => {
       operation: null,
     });
   });
-    
+
   it('performs the operation by performing an addition', () => {
     const obj = {
       total: '1',
@@ -167,7 +165,4 @@ describe('calculate functions', () => {
       operation: null,
     });
   });
-  
-  
-
 });
